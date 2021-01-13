@@ -1,0 +1,235 @@
+#background {
+  height: 40rem;
+  background: url("images/background1.jpg") no-repeat center center scroll;
+  background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+}
+
+#nav1 {
+  background-color: #39a1d1;
+  opacity: 0.5;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+a.dropdown-menu:hover {
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.dropdown-item {
+  background-color: #39a1d1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+#mandalaFont {
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#mainCont {
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+#mainContSec3 {
+  height: 30rem;
+  font-family: 'Oswald', sans-serif;
+  background: url("images/background2.jpg") no-repeat center center scroll;
+  background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+}
+
+#mainPic {
+  padding: 0;
+}
+
+#imgHolder {
+  background-color: #d5f7ff;
+  width: 8rem;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.65s;
+          transition-duration: 0.65s;
+}
+
+#imgHolder:hover {
+  background-color: #9debff;
+  width: 8rem;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.65s;
+          transition-duration: 0.65s;
+}
+
+#dropMenuLeft {
+  left: -8px;
+}
+
+#cardImg {
+  padding: 2rem;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+#cardImg:hover {
+  padding: 2rem;
+}
+
+#navbarDropdown:hover {
+  color: black;
+  border-top: solid 2px white;
+}
+
+.dropdown:hover .dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-menu a {
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #56d9fa;
+}
+
+#textField {
+  background-color: #d5f7ff;
+}
+
+#imgGalery1 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  position: relative;
+  top: 0;
+  -webkit-clip-path: circle(50% at 100% 50%);
+  clip-path: circle(50% at 100% 50%);
+}
+
+#imgGalery1:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-clip-path: circle(70.7% at 50% 50%);
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery2 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  position: relative;
+  top: 0;
+  -webkit-clip-path: circle(50% at 0 50%);
+  clip-path: circle(50% at 0 50%);
+}
+
+#imgGalery2:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-clip-path: circle(70.7% at 50% 50%);
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery3 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition-duration: 1.25s;
+          transition-duration: 1.25s;
+  position: relative;
+  top: 0;
+  -webkit-clip-path: circle(50% at 100% 50%);
+  clip-path: circle(50% at 100% 50%);
+}
+
+#imgGalery3:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-clip-path: circle(70.7% at 50% 50%);
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery4 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  position: relative;
+  top: 0;
+  -webkit-clip-path: circle(50% at 0 50%);
+  clip-path: circle(50% at 0 50%);
+}
+
+#imgGalery4:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-clip-path: circle(70.7% at 50% 50%);
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+#FieldCont {
+  background-color: #f5f1f1;
+  height: 20rem;
+}
+
+#FieldCont2 {
+  background-color: #9debff;
+  height: 10rem;
+}
+
+#footCont {
+  background-color: #242424;
+  font-family: 'Oswald', sans-serif;
+}
+
+#fieldText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+#footText {
+  font-size: 10px;
+  color: #00adcc;
+}
+
+#footAnchor {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  border-bottom: 0.0px solid white;
+}
+
+#footAnchor:hover {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: #00adcc;
+  text-decoration: none;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  border-bottom: 0.2px solid white;
+}
+
+#faFaIcons {
+  font-size: 26px;
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
+#footAnchorFa {
+  color: #00adcc;
+}
+
+#footAnchorFa:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

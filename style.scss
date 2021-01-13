@@ -1,0 +1,222 @@
+#background {
+    height: 40rem;
+    background: url("images/background1.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow-x: hidden; 
+}
+
+#nav1 {
+    background-color: rgb(57, 161, 209);
+    opacity: 0.5;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700 ;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+a.dropdown-menu:hover{
+    transition-duration: 3s;
+}
+
+.dropdown-item {
+    background-color: rgb(57, 161, 209);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+#mandalaFont {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#mainCont{
+    background-color:white;
+    font-family: 'Oswald', sans-serif; 
+}
+
+#mainContSec3{
+    height: 30rem;
+    font-family: 'Oswald', sans-serif;
+    background: url("images/background2.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow-x: hidden;  
+}
+
+#mainPic {
+    padding: 0;
+}
+
+#imgHolder {
+    background-color: rgb(213, 247, 255);
+    width: 8rem;
+    border-radius: 50%;
+    transition-duration: 0.65s;
+}
+
+#imgHolder:hover {
+    background-color:  rgb(157, 235, 255);
+    width: 8rem;
+    border-radius: 50%;
+    transition-duration: 0.65s;
+}
+
+#dropMenuLeft {
+    left: -8px;
+}
+
+#cardImg{
+   padding: 2rem;
+   transition-duration: 1s;
+}
+
+#cardImg:hover{
+   padding: 2rem;
+}
+
+#navbarDropdown:hover {
+    color:black;
+    border-top:solid 2px white;
+}
+
+.dropdown:hover .dropdown-menu {
+     margin-top: 0;
+}
+
+.dropdown-menu a {
+    color:black;
+}
+
+.dropdown-menu a:hover {
+    color:white;
+    background-color:  rgb(86, 217, 250);
+}
+
+#textField{
+    background-color:  rgb(213, 247, 255);
+}
+
+#imgGalery1{
+    filter: grayscale(100%);
+    transition-duration: 0.75s;
+    position: relative;
+    top: 0;
+    -webkit-clip-path: circle(50% at 100% 50%);
+    clip-path: circle(50% at 100% 50%);
+}
+
+#imgGalery1:hover{
+    filter: grayscale(0%);
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery2{
+    filter: grayscale(100%);
+    transition-duration: 0.75s;
+    position: relative;
+    top: 0;
+    -webkit-clip-path: circle(50% at 0 50%);
+    clip-path: circle(50% at 0 50%);
+}
+
+#imgGalery2:hover{
+    filter: grayscale(0%);
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery3{
+    filter: grayscale(100%);
+    transition-duration: 1.25s;
+    position: relative;
+    top: 0;
+    -webkit-clip-path: circle(50% at 100% 50%);
+    clip-path: circle(50% at 100% 50%);
+}
+
+#imgGalery3:hover{
+    filter: grayscale(0%);
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+#imgGalery4{
+    filter: grayscale(100%);
+    transition-duration: 0.75s;
+    position: relative;
+    top: 0;
+    -webkit-clip-path: circle(50% at 0 50%);
+    clip-path: circle(50% at 0 50%);
+}
+
+#imgGalery4:hover{
+    filter: grayscale(0%);
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+#FieldCont{
+    background-color: rgb(245, 241, 241);
+    height: 20rem;
+}
+
+#FieldCont2{
+    background-color: rgb(157, 235, 255);
+    height: 10rem;
+}
+
+#footCont{
+    background-color:rgb(36, 36, 36);
+    font-family: 'Oswald', sans-serif;
+}
+
+#fieldText {
+    font-family: 'Oswald', sans-serif;
+    font-size:12px;
+    color: black
+}
+
+#footText {
+    font-size:10px;
+    color: rgb(0, 173, 204);    
+}
+
+#footAnchor{
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    color: white;
+    text-decoration: none;
+    padding:0.4rem;
+    margin:0.4rem;
+    border-bottom: 0.0px solid white;
+}
+
+#footAnchor:hover {
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    color: rgb(0, 173, 204);
+    text-decoration: none;
+    padding:0.4rem;
+    margin:0.4rem;
+    border-bottom: 0.2px solid white;
+}
+   
+#faFaIcons{
+    font-size:26px;
+    padding:0.4rem;
+    margin:0.4rem;
+}
+
+#footAnchorFa{
+    color: rgb(0, 173, 204);
+}
+
+#footAnchorFa:hover {
+    color:white;
+}
